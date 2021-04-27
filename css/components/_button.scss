@@ -1,0 +1,13 @@
+@mixin button($bg,$color, $shadow-color ) {
+    padding: .75rem;
+    background: $bg;
+    border: 1px solid transparent;
+    box-shadow: 0 0 2px $shadow-color;
+    text-transform: capitalize;
+    margin-right: .6rem;
+    color: $color;
+    border-radius: .45rem;
+    cursor: pointer; 
+    font-family:"Raleway-SemiBold";
+    transition: all .3ms ease;
+}
